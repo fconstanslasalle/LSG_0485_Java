@@ -50,28 +50,6 @@ public class ExempleOutput {
 }
 ```
 
-### 🔹 Escriure en fitxer amb `PrintWriter`
-
-```java
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
-
-public class EscriureFitxer {
-    public static void main(String[] args) {
-        try {
-            PrintWriter escriptor = new PrintWriter(new FileWriter("sortida.txt"));
-            escriptor.println("Això és una línia en el fitxer.");
-            escriptor.println("Una altra línia més.");
-            escriptor.close();
-        } catch (IOException e) {
-            System.out.println("Error escrivint al fitxer.");
-            e.printStackTrace();
-        }
-    }
-}
-```
-
 ## ✅ Resum
 
 | Mètode          | Classe                 | Tipus           |
