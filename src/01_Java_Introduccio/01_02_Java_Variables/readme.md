@@ -101,7 +101,7 @@ Aquests tipus s'utilitzen per emmagatzemar nombres amb part decimal.
         boolean esMajorDEdat = (edat >= 18); // edat és una variable int prèviament definida
         ```
 
-## 2. Tipus Objecten (Reference Types / Non-Primitive Types)
+## 2. Tipus Objecte (Reference Types / Non-Primitive Types) ELS VEUREM MÉS ENDAVANT
 
 Els tipus de referència no emmagatzemen directament el valor en la variable, sinó una referència (o adreça de memòria) a la ubicació on es troba l'objecte real. Els objectes són instàncies de classes.
 
@@ -111,89 +111,3 @@ Els tipus de referència no emmagatzemen directament el valor en la variable, si
     * Inclouen **Classes**, **Interfícies**, **Arrays** i **Enumeracions (Enums)**.
     * Els noms de les classes comencen amb majúscula per convenció.
 
-### a. Classes
-
-Les classes són plantilles per crear objectes. Java té moltes classes predefinides (com `String`, `System`, `ArrayList`) i pots crear les teves pròpies.
-
-* **`String`**:
-    * Tot i que sembla un tipus primitiu per la seva facilitat d'ús, `String` és una classe a Java (del paquet `java.lang`).
-    * S'utilitza per emmagatzemar seqüències de caràcters (text).
-    * Els literals de `String` s'escriuen entre cometes dobles (`" "`).
-    * Exemple:
-        ```java
-        String nom = "Joan";
-        String missatge = "Hola, món!";
-        String salutacio = new String("Bon dia"); // També es pot crear explícitament un objecte String
-        ```
-
-* **Objectes de Classes Personalitzades**:
-    * Pots definir les teves pròpies classes per modelar entitats del món real o conceptes abstractes.
-    * Exemple (suposant que tenim una classe `Gos`):
-        ```java
-        // Definició simple de la classe Gos (en un altre fitxer o dins la mateixa classe si és interna)
-        // class Gos {
-        //     String nomRaca;
-        //     int edat;
-        //     void bordar() {
-        //         System.out.println("Bup, bup!");
-        //     }
-        // }
-
-        Gos elMeuGos = new Gos(); // Creació d'un objecte (instància) de la classe Gos
-        elMeuGos.nomRaca = "Labrador";
-        elMeuGos.edat = 3;
-        // elMeuGos.bordar(); // Crida a un mètode de l'objecte
-        ```
-
-### b. Arrays (Matrius)
-
-Els arrays són objectes contenidors que emmagatzemen un nombre fix d'elements del mateix tipus de dada. La mida d'un array es defineix en el moment de la seva creació i no pot canviar.
-
-* Exemple:
-    ```java
-    // Array d'enters
-    int[] nombres = new int[5]; // Declara i crea un array de 5 enters
-    nombres[0] = 10;
-    nombres[1] = 20;
-    // ...
-
-    // Array de Strings inicialitzat directament
-    String[] diesSetmana = {"dilluns", "dimarts", "dimecres", "dijous", "divendres", "dissabte", "diumenge"};
-
-    // Array d'objectes Gos
-    // Gos[] gossada = new Gos[3];
-    // gossada[0] = new Gos();
-    // gossada[1] = new Gos();
-    ```
-
-### c. Interfícies
-
-Les interfícies són un tipus de referència que defineixen un contracte de mètodes que una classe pot implementar. Una variable de tipus interfície pot referenciar qualsevol objecte d'una classe que implementi aquesta interfície.
-
-* Exemple (suposant una interfície `Animal` i una classe `Gat` que la implementa):
-    ```java
-    // interface Animal {
-    //     void ferSo();
-    // }
-    // class Gat implements Animal {
-    //     public void ferSo() {
-    //         System.out.println("Mèu!");
-    //     }
-    // }
-
-    // Animal elMeuAnimal = new Gat();
-    // elMeuAnimal.ferSo();
-    ```
-
-## Resum de Diferències Clau
-
-| Característica         | Tipus Primitius                            | Tipus de Referència                         |
-| :--------------------- | :----------------------------------------- | :------------------------------------------ |
-| **Emmagatzematge** | Valor directe                              | Adreça de memòria (referència a l'objecte) |
-| **Valor per defecte** | 0, 0.0, '\u0000', `false` (depèn del tipus) | `null`                                      |
-| **Mida** | Fixa i predefinida                         | Variable (depèn de l'objecte)               |
-| **Manipulació** | Directa                                    | A través de mètodes (generalment)           |
-| **Comportament** | Emmagatzemen dades simples                 | Poden tenir mètodes i atributs complexos    |
-| **Nomenclatura** | Paraules clau en minúscula (`int`, `char`) | Comencen amb majúscula per convenció (`String`, `Gos`) |
-
-Entendre la distinció entre tipus primitius i tipus de referència és fonamental per programar correctament a Java, especialment pel que fa a la gestió de memòria i el pas de paràmetres a mètodes.
