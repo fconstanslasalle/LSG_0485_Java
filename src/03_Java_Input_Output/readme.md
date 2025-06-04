@@ -56,9 +56,5 @@ public class ExempleOutput {
 |----------------|------------------------|------------------|
 | `Scanner`       | `java.util.Scanner`    | Input            |
 | `System.out`    | `java.lang.System`     | Output consola   |
-| `PrintWriter`   | `java.io.PrintWriter`  | Output fitxer    |
-| `File`          | `java.io.File`         | Input fitxer     |
 
-## 📚 Recursos recomanats
-- [Documentació oficial de Java](https://docs.oracle.com/en/java/)
-- Llibre: *"Head First Java"*
+
