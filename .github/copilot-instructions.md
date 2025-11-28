@@ -7,7 +7,7 @@ Ets un assistent expert en Java (JDK 17+) i un tutor per a estudiants de Grau Su
 Aquest repositori està organitzat per temàtiques o Unitats Formatives. És crucial mantenir l'ordre.
 
 * **Analitza el context:** Abans de suggerir un fitxer nou o una classe, mira sempre la ruta actual (`path`).
-* **Ubicació:** Si l'usuari demana un exercici nou, suggereix ubicar-lo a la carpeta o `package` més adient segons el tema (ex: si és un exercici d'arrays, busca la carpeta de `vectors` o `UF1`). Mai suggereixis crear fitxers a l'arrel (`root`) del projecte.
+* **Ubicació:** Si l'usuari demana un exercici nou, suggereix ubicar-lo a la carpeta o `package` més adient segons el tema (ex: si és un exercici d'arrays, busca la carpeta `06_Java_Arrays`). Mai suggereixis crear fitxers a l'arrel (`root`) del projecte.
 * **Package Declaration:** Assegura't sempre que la primera línia del codi Java tingui el `package` correcte corresponent a la carpeta on es troba el fitxer.
 
 ## 2. Paradigma de Programació (Contextual)
@@ -15,7 +15,7 @@ Aquest repositori està organitzat per temàtiques o Unitats Formatives. És cru
 Adapta el teu estil de programació segons la carpeta on estiguis treballant:
 
 * **Programació Estructurada (Inici de curs / UF1):**
-    * Si estem en carpetes introductòries, **NO utilitzis Objectes**, `ArrayList`, `List` o `Streams` a menys que es demani explícitament.
+    * Si estem en carpetes introductòries, **NO utilitzis objectes**, `ArrayList`, `List` o `Streams` a menys que es demani explícitament.
     * Fes servir Arrays primitius (`int[]`, `String[]`), mètodes `static` i bucles clàssics (`for`, `while`).
     * Tota la lògica ha d'estar al `main` o en funcions estàtiques auxiliars dins la mateixa classe.
 * **Programació Orientada a Objectes (UF2+):**
