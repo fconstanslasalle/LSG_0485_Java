@@ -46,7 +46,7 @@ double calcularMitjana(int[] array) {
 }
 ```
 
-### Compt ar Ocurrències
+### Comptar Ocurrències
 ```java
 int comptarOcurrencies(int[] array, int valor) {
     int comptador = 0;
@@ -73,7 +73,7 @@ Aquest exemple demostra:
 - Trobar el valor màxim de l'array
 - Trobar el valor mínim de l'array
 - Calcular la mitjana dels elements
-- Compt ar quantes vegades apareix un valor
+- Comptar quantes vegades apareix un valor
 - Determinar si un element existeix a l'array
 - Trobar la posició d'un element
 

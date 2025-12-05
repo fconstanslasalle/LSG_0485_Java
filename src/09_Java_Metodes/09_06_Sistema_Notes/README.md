@@ -57,7 +57,7 @@ Aquest exemple demostra:
 - Mètodes per processar arrays
 - Càlculs estadístics (mitjana, màxim, mínim)
 - Mètodes de classificació
-- Compt atge d'elements que compleixen condicions
+- Comptatge d'elements que compleixen condicions
 - Combinació de diversos mètodes
 - Generació d'informes
 

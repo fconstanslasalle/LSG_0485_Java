@@ -51,17 +51,17 @@ Aquest exemple demostra:
 - Cercar elements amb `indexOf` i `lastIndexOf`
 - Ordenar ArrayList amb `Collections.sort`
 - Trobar màxim i mínim
-- Compt ar ocurrències d'un element
+- Comptar ocurrències d'un element
 - Revertir l'ordre dels elements
 - Comprovar si està buit amb `isEmpty`
-- Obtenir subl listes amb `subList`
+- Obtenir subllistes amb `subList`
 
 ## Notes Importants
 
 💡 **Consells**:
 - Utilitzar `Collections` per operacions avançades
 - Per ordenar objectes personalitzats, implementar `Comparable`
-- Preferir `Collections.frequency` en lloc de bucles manuals
+- Preferir `Collections.frequency` en lloc de bucles manuals per comptar
 
 ⚠️ **Atenció**:
 - L'ArrayList ha d'estar ordenat per a cerca binària
