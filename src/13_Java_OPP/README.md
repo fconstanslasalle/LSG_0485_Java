@@ -65,6 +65,35 @@ Exemple que demostra:
 - Encapsulació amb getters i setters
 - Exemple pràctic d'una aplicació orientada a objectes
 
+### 13_02 - JavaHerencia
+Exemple que demostra:
+- Herència de classes (classe Animal i subclasses Gos i Gat)
+- Ús de la paraula clau `extends`
+- Modificador `protected` per a atributs accessibles des de subclasses
+- Sobreescriptura de mètodes amb `@Override`
+- Utilització de `super` per cridar constructors de la classe pare
+- Relació "és un" (is-a)
+- Polimorfisme bàsic amb referències de tipus superclasse
+
+### 13_03 - JavaPolimorfisme
+Exemple que demostra:
+- Polimorfisme amb figures geomètriques (Cercle, Rectangle, Triangle)
+- Sobrecàrrega de constructors
+- Sobreescriptura de mètodes amb comportaments específics
+- Utilització d'arrays de tipus superclasse per gestionar múltiples objectes
+- Càlcul polimòrfic d'àrees i perímetres
+- Polimorfisme en temps de compilació i en temps d'execució
+
+### 13_04 - JavaAbstraccio
+Exemple que demostra:
+- Classes abstractes (Vehicle) amb mètodes abstractes i concrets
+- Interfícies (Volador, Submergible) per definir contractes
+- Implementació d'interfícies amb `implements`
+- Combinació d'herència i interfícies en una mateixa classe
+- Múltiples interfícies implementades per una classe
+- Diferències entre classes abstractes i interfícies
+- Polimorfisme amb interfícies i classes abstractes
+
 ## Avantatges de l'OOP
 
 - **Modularitat**: El codi està organitzat en classes independents
