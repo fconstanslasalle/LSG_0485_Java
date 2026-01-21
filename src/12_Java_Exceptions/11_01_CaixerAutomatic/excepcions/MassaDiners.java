@@ -1,4 +1,4 @@
-package excepcions;
+package Java_Exceptions.CaixerAutomatic.excepcions;
 
 public class MassaDiners extends Exception{
     public MassaDiners() {

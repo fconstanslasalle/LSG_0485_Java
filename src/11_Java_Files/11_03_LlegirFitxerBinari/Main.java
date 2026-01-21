@@ -1,3 +1,5 @@
+package Java_Files.LlegirFitxerBinari;
+
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.EOFException;

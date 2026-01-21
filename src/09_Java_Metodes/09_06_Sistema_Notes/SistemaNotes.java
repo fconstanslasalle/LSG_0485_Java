@@ -12,6 +12,8 @@
  * - Validació de notes
  */
 
+package Java_Metodes.Sistema_Notes;
+
 import java.util.Scanner;
 
 public class SistemaNotes {

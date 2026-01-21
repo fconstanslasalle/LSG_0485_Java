@@ -1,3 +1,5 @@
+package Java_Metodes.Maquina_de_Billets;
+
 import java.util.Scanner;
 
 public class DemoMaquinaDeBillets {

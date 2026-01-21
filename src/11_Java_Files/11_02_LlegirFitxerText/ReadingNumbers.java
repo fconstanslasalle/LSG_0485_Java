@@ -1,3 +1,5 @@
+package Java_Files.LlegirFitxerText;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;

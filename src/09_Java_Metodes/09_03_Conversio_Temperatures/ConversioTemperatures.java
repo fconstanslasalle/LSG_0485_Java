@@ -11,6 +11,8 @@
  * - Validació d'entrada
  */
 
+package Java_Metodes.Conversio_Temperatures;
+
 import java.util.Scanner;
 
 public class ConversioTemperatures {

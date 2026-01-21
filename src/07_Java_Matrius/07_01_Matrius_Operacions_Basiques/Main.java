@@ -8,6 +8,8 @@
  * - Mostrar contingut de la matriu
  */
 
+package Java_Matrius.Matrius_Operacions_Basiques;
+
 import java.util.Scanner;
 
 public class Main {

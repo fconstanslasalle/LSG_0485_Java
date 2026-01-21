@@ -1,3 +1,5 @@
+package Java_Metodes.Calculadora;
+
 import java.util.Scanner;
 public class Calculadora {
     Scanner input = new Scanner(System.in); // variable global

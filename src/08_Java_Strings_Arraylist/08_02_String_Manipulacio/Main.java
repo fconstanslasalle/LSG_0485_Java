@@ -9,6 +9,8 @@
  * - concat: concatenar Strings
  */
 
+package Java_Strings_Arraylist.String_Manipulacio;
+
 import java.util.Scanner;
 
 public class Main {

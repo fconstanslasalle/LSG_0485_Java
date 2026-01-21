@@ -1,3 +1,5 @@
+package Java_Strings_Arraylist.DemoString;
+
 import java.util.Scanner;
 
 public class DemoString {

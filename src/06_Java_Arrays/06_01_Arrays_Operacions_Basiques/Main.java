@@ -8,6 +8,8 @@
  * - Mostrar contingut de l'array
  */
 
+package Java_Arrays.Arrays_Operacions_Basiques;
+
 import java.util.Scanner;
 
 public class Main {

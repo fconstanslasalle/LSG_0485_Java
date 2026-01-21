@@ -12,6 +12,8 @@
  * - Validacions complexes dividides en mètodes
  */
 
+package Java_Metodes.Validador_DNI;
+
 import java.util.Scanner;
 
 public class ValidadorDNI {

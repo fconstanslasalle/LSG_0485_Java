@@ -1,7 +1,9 @@
-import excepcions.BalancNegatiu;
-import excepcions.MassaDiners;
-import model.CompteCorrent;
-import utils.Utilities;
+package Java_Exceptions.CaixerAutomatic;
+
+import Java_Exceptions.CaixerAutomatic.excepcions.BalancNegatiu;
+import Java_Exceptions.CaixerAutomatic.excepcions.MassaDiners;
+import Java_Exceptions.CaixerAutomatic.model.CompteCorrent;
+import Java_Exceptions.CaixerAutomatic.utils.Utilities;
 
 public class CaixerAutomatic {
     //attributes

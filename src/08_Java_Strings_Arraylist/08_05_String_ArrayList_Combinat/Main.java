@@ -9,6 +9,8 @@
  * - Processar text i emmagatzemar paraules
  */
 
+package Java_Strings_Arraylist.String_ArrayList_Combinat;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;

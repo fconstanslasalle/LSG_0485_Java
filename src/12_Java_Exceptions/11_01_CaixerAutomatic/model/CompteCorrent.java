@@ -1,7 +1,7 @@
-package model;
+package Java_Exceptions.CaixerAutomatic.model;
 
-import excepcions.BalancNegatiu;
-import excepcions.MassaDiners;
+import Java_Exceptions.CaixerAutomatic.excepcions.BalancNegatiu;
+import Java_Exceptions.CaixerAutomatic.excepcions.MassaDiners;
 
 public class CompteCorrent {
     //attributes

@@ -1,3 +1,5 @@
+package Java_Files.BucleInfinito;
+
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
