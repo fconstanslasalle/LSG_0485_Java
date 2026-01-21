@@ -1,4 +1,4 @@
-package utils;
+package Java_Exceptions.CaixerAutomatic.utils;
 import java.util.Scanner;
 
 /**
