@@ -1,3 +1,4 @@
+package Java_Operadors_Logics_Aritmetics.Java_Operadors_Logics;
 
 public class OperadorsLogics {
     public static void main(String[] args) {

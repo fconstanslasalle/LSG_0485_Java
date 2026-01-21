@@ -11,6 +11,8 @@ La salida tiene que mostrar por pantalla
 
 */
 
+package Java_Interacions.TopuriaVsHolloway;
+
 import java.util.Scanner;
 
 public class Main {

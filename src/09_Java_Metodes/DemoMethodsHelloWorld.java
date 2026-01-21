@@ -1,3 +1,5 @@
+package Java_Metodes;
+
 import java.util.Scanner;
 
 public class DemoMethodsHelloWorld {

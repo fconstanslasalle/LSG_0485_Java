@@ -11,6 +11,8 @@
  * - Recorregut amb bucle for clàssic i for-each
  */
 
+package Java_Strings_Arraylist.ArrayList_Operacions_Basiques;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 

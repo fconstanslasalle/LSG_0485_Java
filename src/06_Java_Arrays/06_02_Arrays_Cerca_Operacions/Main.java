@@ -9,6 +9,8 @@
  * - Comptar ocurrències d'un valor
  */
 
+package Java_Arrays.Arrays_Cerca_Operacions;
+
 import java.util.Scanner;
 
 public class Main {

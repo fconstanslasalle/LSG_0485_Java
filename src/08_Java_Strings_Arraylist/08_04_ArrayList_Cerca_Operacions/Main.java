@@ -10,6 +10,8 @@
  * - Ordenar i invertir l'ArrayList
  */
 
+package Java_Strings_Arraylist.ArrayList_Cerca_Operacions;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;

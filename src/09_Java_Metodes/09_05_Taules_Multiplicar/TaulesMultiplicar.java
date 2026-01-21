@@ -11,6 +11,8 @@
  * - Organització del codi en funcions
  */
 
+package Java_Metodes.Taules_Multiplicar;
+
 import java.util.Scanner;
 
 public class TaulesMultiplicar {

@@ -1,3 +1,4 @@
+package Java_Input_Output.Java_Scanner;
 
 import java.util.Scanner;
 

@@ -8,6 +8,8 @@
  * - Transposició d'una matriu
  */
 
+package Java_Matrius.Matrius_Operacions_Avancades;
+
 import java.util.Scanner;
 
 public class Main {
