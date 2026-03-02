@@ -1,4 +1,4 @@
-package Java_Metodes;
+package Java_Metodes.Demo_Metodes_Hello_World;
 
 import java.util.Scanner;
 

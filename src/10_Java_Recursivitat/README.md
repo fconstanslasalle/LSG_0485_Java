@@ -27,6 +27,20 @@ Aquesta carpeta conté exemples de codi per aprendre a treballar amb la recursiv
 
 ## Exemples
 
+### 10_01 - Factorial
+Exemple que demostra:
+- Implementació d'un mètode recursiu clàssic
+- Definició d'un únic cas base
+- Progressió cap al cas base decrementant `n`
+- Ús de `long` per gestionar nombres grans
+
+### 10_02 - Fibonacci
+Exemple que demostra:
+- Recursivitat amb dos casos base
+- Crida recursiva doble (cada crida genera dues noves crides)
+- Visualització d'una seqüència numèrica generada recursivament
+- Comprensió del cost computacional exponencial
+
 ### Aplicacions de la Recursivitat
 - Càlculs matemàtics
 - Recorregut d'estructures de dades

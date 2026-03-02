@@ -23,9 +23,19 @@ Aquesta carpeta conté exemples de codi per aprendre a treballar amb mètodes (f
 
 ## Exemples
 
-### Exemples Bàsics
-- **DemoMethodsHelloWorld.java**: Introducció als mètodes amb exemples simples
-- **DemoMetodes1.java**: Exemples bàsics de declaració i crida de mètodes
+### 09_07 - Demo Mètodes Hello World
+Exemple que demostra:
+- Separació de responsabilitats en mètodes
+- Mètode que retorna un `String`
+- Mètode `void` que imprimeix per pantalla
+- Validació d'entrada dins d'un mètode
+
+### 09_08 - Demo Mètodes Bàsics
+Exemple que demostra:
+- Declaració de mètodes `void`
+- Mètodes amb i sense paràmetres
+- Crida de mètodes des del `main`
+- Ús de condicions per seleccionar el mètode a executar
 
 ### 09_01 - Calculadora
 Exemple que demostra:
